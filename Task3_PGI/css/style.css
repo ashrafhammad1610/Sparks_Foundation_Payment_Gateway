@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    box-sizing: border-box;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/covid1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 32px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+ul li a.active {
+    background-color: white;
+    color: black;
+}
+
+.logo img{
+    margin-top: 12px;
+    float: left;
+    width: 120px;
+    height: auto;
+    transition: 0.4s ease;
+}
+
+.logo img:hover {
+    background-color: lightpink;
+    color: red;
+}
+
+
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    font-family: cursive;
+    margin-left: 50px;
+    color: white;
+    font-size: 70px;
+}
+
+.title h4{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+
+.title h6{
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 50px;
+    color: white;
+    font-size: 20px;
+}
+
+.button{
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
